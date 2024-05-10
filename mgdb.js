@@ -1,3 +1,5 @@
+//For using the mongoDB databass you would have to make an ID on mongoDB website
+//Using mongoDB compass for PC would be a a good practice to get connection ID
 //Learning mongoDB
 //adding new user to the database
 const mongoose = require('mongoose');
