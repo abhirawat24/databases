@@ -7,3 +7,4 @@ const User = mongoose.model('Users', { name: String, email: String, password: St
 
 const newUser = new User({ name: 'abhi', email: 'xcvkp@example.com', password: 'abhi@123' });
 newUser.save().then(() => console.log('saved')).catch(err => console.error(err));
+//Using user.save would send the data to the database
