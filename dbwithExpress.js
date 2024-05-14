@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 app.use(express.json())
-
+//used to create a specific area where the data will be stored
 mongoose.connect("mongodb+srv://abhirawat102:YbPxHC5AaBf9aKJW@cluster0.jpnq584.mongodb.net/useraddition?retryWrites=true&w=majority");
 
 const User = mongoose.model('Users', { name: String, email: String, password: String });
