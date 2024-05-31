@@ -1,3 +1,4 @@
+//written when the program uses express
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
