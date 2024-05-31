@@ -1,5 +1,6 @@
 //written when the program uses express
 const express = require('express');
+//written when the program uses mongoose
 const mongoose = require('mongoose');
 const app = express();
 app.use(express.json())
